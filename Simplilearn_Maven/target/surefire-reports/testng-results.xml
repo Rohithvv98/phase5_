@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Banking App TestCases" duration-ms="21104" started-at="2021-07-17T20:03:16Z" finished-at="2021-07-17T20:03:37Z">
+    <groups>
+    </groups>
+    <test name="Regression Test" duration-ms="21104" started-at="2021-07-17T20:03:16Z" finished-at="2021-07-17T20:03:37Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@8909f18]" name="setup" is-config="true" duration-ms="8598" started-at="2021-07-17T20:03:16Z" finished-at="2021-07-17T20:03:24Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Testcase1(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@8909f18]" name="Testcase1" duration-ms="11438" started-at="2021-07-17T20:03:24Z" finished-at="2021-07-17T20:03:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345Abcd]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:test.LoginTest@8909f18]" name="cleanup" is-config="true" duration-ms="1043" started-at="2021-07-17T20:03:36Z" finished-at="2021-07-17T20:03:37Z">
+        </test-method> <!-- cleanup -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Banking App TestCases -->
+</testng-results>
