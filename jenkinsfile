@@ -10,9 +10,9 @@ pipeline {
                 // Get some code from a GitHub repository
                 git 'https://github.com/Rohithvv98/phase5_.git'
                 // Run Maven on a Unix agent.
-                sh "mvn test"
+                //sh "mvn test"
                 // To run Maven on a Windows agent, use
-                //bat "mvn test"
+                bat "mvn test"
             }
         }
     }
